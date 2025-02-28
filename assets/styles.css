@@ -6,14 +6,6 @@ a {
   text-decoration: none;
 }
 
-.heading-botton,
-.nav {
-  display: flex;
-}
-.nav a {
-  margin-right: 20px;
-}
-
 /* Heading-top */
 
 .heading-top {
@@ -23,7 +15,24 @@ a {
 .heading-top .heading-top_block {
   display: flex;
   justify-content: space-between;
-  padding: 20px 10px;
+  padding: 20px 30px;
+}
+
+/* .heading-top .heading-top_block:hover {
+  cursor: pointer;
+  background-color: gray;
+} */
+
+.heading-top .login_signup_block {
+  display: flex;
+  padding: 5px;
+}
+
+.heading-top .login_signup_block:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  border: 1px solid black;
+  border-radius: 14px;
 }
 
 .heading-top .logo {
@@ -41,6 +50,10 @@ a {
   background-color: #e60012;
   color: #fff;
   font-weight: 600;
+  margin-left: 10px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 /* Heading-mid */
@@ -48,4 +61,62 @@ a {
 .heading-mid {
   background-color: #000000;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-mid .arrow_img {
+  height: 10px;
+  width: 23px;
+}
+
+.heading-mid .mini_title {
+  padding: 0px 5px;
+}
+
+/* heading-botton */
+
+.heading-botton {
+  background-image: url(./img/backgr_BOTW.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 2px solid #b99f65;
+  border-bottom: 2px solid #b99f65;
+}
+
+.heading-botton .nav a {
+  color: #fff;
+}
+
+.heading-botton,
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  margin-left: 460px;
+}
+
+.nav a {
+  margin-right: 20px;
+  font-size: 30px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nav a:hover {
+  color: #b99f65;
+}
+
+.logo_ninte {
+  padding: 10px;
+  margin-left: auto;
 }
