@@ -1,9 +1,24 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+.main-content {
+  width: 999px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+html,
+body {
+  overflow-x: hidden; /* Ẩn thanh cuộn ngang */
+  /* height: 100vh; Đặt body đúng với kích thước màn hình */
+  overflow-y: auto; /* Giữ cuộn chính, tránh cuộn thừa */
 }
 
 /* Heading-top */
@@ -94,6 +109,13 @@ a {
 }
 
 .heading-botton,
+.heading-mid,
+.heading-top {
+  position: relative;
+  z-index: 2;
+}
+
+.heading-botton,
 .nav {
   display: flex;
   justify-content: center;
@@ -119,4 +141,105 @@ a {
 .logo_ninte {
   padding: 10px;
   margin-left: auto;
+}
+
+/* PHAN MAIN VIDEO  */
+
+#first_video {
+  position: absolute;
+  position: relative;
+  margin-top: -238px;
+  z-index: 1;
+  margin-bottom: -112px;
+}
+
+.zelda_botw_logo {
+  position: absolute;
+  top: 43%;
+  left: 94%;
+  transform: translate(-50%, -50%);
+  height: 182px;
+  width: 180px;
+  z-index: 1;
+}
+
+.everyone10 {
+  position: absolute;
+  z-index: 1;
+  top: 70%;
+  left: 1%;
+  height: 80px;
+  width: 53px;
+}
+
+.rimblock {
+  display: flex;
+}
+
+.rimblock .rim {
+  height: 30px;
+  width: 400px;
+  margin-bottom: -0.9px;
+}
+
+.info-content {
+  background-image: url(./img/backgr_BOTW.jpg);
+}
+
+.info-block {
+  position: relative;
+  z-index: 2;
+}
+
+.Vitinhtu22,
+.Vitinhtu11 {
+  height: 90px;
+  width: 90px;
+}
+
+.Vitinhtu11 {
+  transform: rotate(218deg);
+}
+
+.Vitinhtu22 {
+  transform: rotate(218deg);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.title .Buynow {
+  color: #fff;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.info-content .sub-title {
+  position: relative;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+}
+
+.info-content .sub-title::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #af966d;
+  height: 1px;
+  width: 500px;
+  bottom: 0;
+  margin-bottom: -20px;
 }
