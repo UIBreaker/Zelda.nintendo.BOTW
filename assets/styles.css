@@ -238,8 +238,105 @@ body {
   content: "";
   position: absolute;
   border: 1px solid #af966d;
+  background-color: #af966d;
   height: 1px;
   width: 500px;
   bottom: 0;
   margin-bottom: -20px;
+}
+
+.DE-class {
+  margin-top: 140px;
+  display: flex;
+}
+
+.DE-class .title-DE {
+  color: #fff;
+  position: relative;
+  font-size: 47px;
+  font-family: "Chakra Petch", sans-serif;
+  margin-bottom: 17px;
+  color: #af966d;
+}
+
+.DE-class .title-DE::after {
+  position: absolute;
+  content: "";
+  border: 1px solid #af966d;
+  height: 1px;
+  width: 200px;
+  bottom: 0;
+  left: 0;
+  background-color: #af966d;
+  margin-bottom: -10px;
+}
+.DE-class .sub-title-DE {
+  color: #fff;
+  margin-top: 40px;
+  font-size: 25px;
+  width: 396px;
+  line-height: 1.2;
+}
+
+.DE-class .sub-title-DE a {
+  font-style: italic;
+  color: #00a3da;
+}
+
+.DE-class .price {
+  display: flex;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.DE-class .price .us {
+  color: #af966d;
+  margin-right: 10px;
+}
+.DE-class .price .us span {
+  color: #fff;
+}
+
+.DE-class .Buynow_DE {
+  margin-top: 20px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 2px;
+}
+
+.DE-class .Buynow_DE:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.DE-class .addTowishlist {
+  display: flex;
+  color: black;
+  align-items: center;
+  background-color: white;
+  width: 150px;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+.DE-class .addTowishlist .icon_tim {
+  height: 40px;
+  width: 40px;
+}
+
+.DE-class .addTowishlist:hover {
+  cursor: pointer;
+}
+.DE-class .addTowishlist .icon_tim:hover {
+  background-color: #e60012;
+}
+
+.DE-class-right .linkAndHouse {
+  width: 568px;
+  height: 379px;
+  margin-left: 90px;
+  margin-top: 30px;
 }
