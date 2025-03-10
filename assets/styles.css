@@ -248,6 +248,7 @@ body {
 .DE-class {
   margin-top: 140px;
   display: flex;
+  padding: 30px 0;
 }
 
 .DE-class .title-DE {
@@ -283,6 +284,12 @@ body {
   color: #00a3da;
 }
 
+.DE-class .sub-title-DE a:hover {
+  text-decoration: underline;
+  color: #00a3da;
+  font-style: italic;
+}
+
 .DE-class .price {
   display: flex;
   margin-top: 20px;
@@ -302,9 +309,12 @@ body {
 .DE-class .Buynow_DE {
   margin-top: 20px;
   font-family: "Chakra Petch", sans-serif;
+  background-color: #170606;
+  color: #fff;
   font-size: 15px;
   padding: 10px 30px;
   border-radius: 2px;
+  border: 1px solid rgb(39, 12, 12);
 }
 
 .DE-class .Buynow_DE:hover {
@@ -339,4 +349,55 @@ body {
   height: 379px;
   margin-left: 90px;
   margin-top: 30px;
+}
+
+.DE-class .endDEleft {
+  color: #fff;
+  margin-top: 20px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+}
+
+.Voucherss {
+  display: flex;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.Voucherss .vocher_img {
+  height: 178px;
+  width: 350px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+
+.Voucherss .title_VC {
+  font-family: "Medula One", cursive;
+  line-height: 1;
+  font-weight: normal;
+  color: #fff;
+  font-size: 40px;
+  width: 500px;
+}
+
+.Voucherss .sub-title_VC {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 1.6;
+  width: 550px;
+}
+
+.Voucherss .Buynow {
+  margin-top: 20px;
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #170606;
+  color: #fff;
+  font-size: 15px;
+  padding: 16px 25px;
+  border-radius: 2px;
+  border: 1px solid rgb(39, 12, 12);
+  width: 136px;
+  height: 51px;
+  white-space: NOWRAP;
 }
