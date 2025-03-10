@@ -401,3 +401,61 @@ body {
   height: 51px;
   white-space: NOWRAP;
 }
+
+.Physical_Edition {
+  margin-top: 60px;
+}
+
+.PE_left {
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+.us_flag,
+.ca_flag {
+  width: 150px;
+  height: 78px;
+}
+
+.Disc_game {
+  width: 485px;
+  height: 316px;
+}
+
+.Physical_Edition {
+  display: flex;
+}
+
+.Physical_Edition .PE_left .title_PE {
+  font-family: "Medula One", cursive;
+  position: relative;
+  line-height: 1;
+  font-weight: normal;
+  color: #fff;
+  font-size: 60px;
+}
+
+.Physical_Edition .PE_left .title_PE::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #af966d;
+  background-color: #af966d;
+  bottom: 0;
+  margin-bottom: -10px;
+  height: 1px;
+  width: 200px;
+}
+
+.Physical_Edition .PE_left .sub-title_PE {
+  line-height: 1.4;
+  font-weight: normal;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.row-flag {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
