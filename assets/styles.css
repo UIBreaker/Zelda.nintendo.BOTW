@@ -581,3 +581,53 @@ body {
 .like {
   margin-right: 10px;
 }
+
+.everyone10e-group .everyone,
+.esrb-img {
+  height: 90px;
+  width: 60px;
+}
+
+.follow_nintendo-group {
+  /* display: flex; */
+}
+
+.footer_Follow_Nintendo .content {
+  display: flex;
+  margin-top: 70px;
+}
+
+.amiibo {
+  margin-left: 41px;
+  margin-right: 30px;
+}
+
+.fng_title {
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 600;
+  margin-left: 60px;
+}
+
+.fbtwytig_logo {
+  margin: 0 5px;
+  height: 48px;
+  width: 48px;
+}
+
+.follow-nintendo-group-icon {
+  display: flex;
+}
+
+.everyone10e-group {
+  display: flex;
+  margin-left: 50px;
+}
+
+.everyone-info {
+  color: #fff;
+  font-weight: 600;
+  width: 197px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
