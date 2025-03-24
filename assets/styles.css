@@ -166,7 +166,7 @@ body {
 .everyone10 {
   position: absolute;
   z-index: 1;
-  top: 70%;
+  top: 65%;
   left: 1%;
   height: 80px;
   width: 53px;
@@ -458,4 +458,126 @@ body {
   display: flex;
   margin-top: 20px;
   gap: 20px;
+}
+
+/* .Available_now {
+  position: relative;
+}
+
+.Available_now {
+  content: "";
+  position: absolute;
+  margin-top: 145px;
+  background: rgba(61, 171, 208, 0.5);
+  padding: 20px;
+  width: 1578px;
+} */
+
+.Available_now {
+  margin-top: 145px;
+  background: #24587f;
+  padding: 20px;
+  width: 1578px;
+  border: 1px solid #af966d;
+}
+
+.Available_now_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  position: relative;
+  z-index: 1;
+}
+
+.Available_now_btn {
+  margin-right: 10px;
+}
+
+.zlright,
+.inzlright {
+  height: 141px;
+  width: 435px;
+}
+
+.zlright {
+  position: relative;
+}
+
+.inzlright {
+  position: absolute;
+  left: 0;
+  margin-left: 680px;
+}
+
+.Available_now_btn {
+  color: #fff;
+  font-family: "Medula One", cursive;
+  font-size: 70px;
+  margin-right: 40px;
+}
+
+.sub-titleAN {
+  color: #fff;
+  /* font-family: "Medula One", cursive; */
+  margin-top: 5px;
+}
+
+.sharelikeFooter {
+  margin-top: 50px;
+}
+
+.footer_button_row-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shareandlikee,
+.shareandlike {
+  margin-right: 50px;
+  background-color: #000000;
+  color: #fff;
+  /* height: 81px;
+  width: 352px; */
+  cursor: pointer;
+  border: none;
+  padding: 20px 50px;
+}
+
+.shareandlike .titleSaL {
+  font-family: "Medula One", cursive;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.shareandlikee .titleSaL {
+  font-family: "Medula One", cursive;
+  font-size: 24px;
+}
+
+.like-share-row {
+  display: flex;
+}
+
+.shareandlikee,
+.shareandlike {
+  display: flex;
+  border: 1px solid #b99f65;
+  align-items: center;
+}
+
+.shareandlikee {
+  margin-top: 50px;
+}
+
+.like,
+.share {
+  background-color: #1877f2;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.like {
+  margin-right: 10px;
 }
