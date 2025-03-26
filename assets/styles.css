@@ -686,3 +686,28 @@ body {
   font-weight: 600;
   padding-bottom: 40px;
 }
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+/* Ẩn phần tử ban đầu và đặt vị trí xuất phát */
+.Hr,
+.Hl {
+  opacity: 0;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Hr (Right) - Dịch sang phải 50px */
+.Hr {
+  transform: translateX(50px);
+}
+
+/* Hl (Left) - Dịch sang trái 50px */
+.Hl {
+  transform: translateX(-50px);
+}
+
+/* Khi class "show" được thêm vào, phần tử hiện lên */
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
