@@ -631,3 +631,58 @@ body {
   margin-top: 20px;
   margin-left: 20px;
 }
+
+.footer_corp-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px;
+}
+
+.footer_corp-link .Privacy_Policy {
+  color: #fff;
+}
+
+.footer_corp-link .Privacy_Policy:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  margin: 0 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.main-footer__legal-ads {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.Interest-Based_Ads {
+  color: #fff;
+}
+
+.Interest-Based_Ads:hover {
+  text-decoration: underline;
+}
+
+.title-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  margin: 40px 90px;
+  /* width: 1110px; */
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
